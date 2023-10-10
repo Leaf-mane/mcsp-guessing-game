@@ -2,7 +2,7 @@
 const playerData = {};
 function newGame(){
         let minNumber = 1
-        let maxNumber = 100
+        let maxNumber = 50
         let number = Math.round((Math.random() * (maxNumber - minNumber))) + minNumber;
         let attempts = 0;
         //empty array for previous guess storage
